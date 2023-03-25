@@ -1,0 +1,442 @@
+nav.navbar-transparante{
+	background: rgba(0,0,0,0.7);
+	padding: 15px 0px;
+	height: 12%;
+}
+
+nav.navbar-login{
+	background: white;
+	border-bottom: 1px solid rgb(217, 218, 220);
+	padding: 15px 0px;
+	height: 15%;
+}
+
+
+.logo-login{
+
+	text-align: center;
+	height: 100px; 
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #0EE35E;
+}
+
+.divisor{
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+
+}
+
+.box{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.rotation{
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+
+.navbar-light .navbar-toggler{
+	color: rgba(0,0,0,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+
+
+
+
+body{
+	background: url("../imagens/capa.png"),
+				url("../imagens/ruido.png"),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+				background-attachment: fixed;
+				font-family: arial, helvetica, "trebuchet MS", sans-serif;
+}
+
+.reset{
+	background: white;
+}
+
+#list-button  {
+	list-style: none;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	color: black;
+
+}
+
+
+
+.formulario  {
+	
+	appearance: none;
+    background-image: none;
+    border: 0px;
+   	margin: auto;
+    display: block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    font-weight: 400;
+    width: 50%;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    padding: 14px;
+    
+	
+
+}
+
+.forgot{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+
+}
+.forgot a{
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+
+	
+
+}
+
+.sign{
+	margin-top: 100px;
+	
+
+
+}
+
+
+
+
+
+.btn-session{
+	display: block;
+
+    border-color: rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    width: 95%;
+    color: black;
+    line-height: 250%;
+    text-align: center;
+    font-size: 14px;
+    background-color: #1ed760;
+
+}
+
+.btn-sign{
+	display: block;
+    border-color: rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    float: right;
+    color: black;
+    line-height: 200%;
+    
+    font-size: 18px;
+    background-color: #3AC4DE;
+    width: 180%;
+
+}
+
+#list-session  {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	float: right;
+	margin-right: 270px;
+	margin-top: 10px;
+
+}
+
+.btn-apple{
+	color: rgb(248, 248, 248);
+    background-color: rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    width: 95%;
+    
+
+
+}
+
+.btn-google{
+	background-color: #D6003D;
+	color: rgb(248, 248, 248);
+	text-transform:uppercase;
+	margin-bottom: 15px;
+	width: 95%;
+	
+
+
+}
+
+.btn-facebook{
+	color: rgb(248, 248, 248);
+    background-color: rgb(24, 119, 242);
+    border-color: rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    width: 95%;
+ 
+
+}
+
+.btn-phone{
+	background: white;
+	color: rgb(248, 248, 248);
+	text-transform:uppercase;
+	background: #E1DFDD;
+	margin-bottom: 15px;
+	width: 95%;
+	
+
+}
+
+
+
+
+
+html, body, #home, #login{
+	height: 100%;
+	overflow-x: hidden;
+
+}
+
+.capa{
+	text-align: center;
+}
+
+.btn-login{
+	color: white;
+
+}
+
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	padding: 10px 50px;
+}
+
+.btn-black{
+	background: black;
+	font-weight: bold;
+
+
+}
+
+.btn-black:hover{
+	background: black;
+	color: #0EE35E;
+}
+
+.btn-white{
+	background: transparent;
+	border: 2px solid white;
+	font-weight: bold;
+}
+
+.btn-white:hover{
+	background: white;
+	color: black;
+}
+
+h1{
+	font-weight: 900;
+	margin-bottom: 50px;
+	letter-spacing: -0.05em;
+	color: white;
+}
+
+h2{
+	font-size: 2.5em;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	
+}
+
+h3{
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+
+}
+
+#services p{
+	color: black;
+	font-weight: bold;
+}
+
+
+
+
+#resources p{
+	color: white;
+}
+
+.color{
+	color: #0FE1F7;
+	font-weight: bold;
+}
+
+
+
+#resources h2, h3{
+	color: #0FE1F7;
+}
+
+#services h2, h3{
+	color: #B80B59;
+}
+
+#services{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.album{
+	padding: 10px 0px;
+}
+
+footer{
+	background: #000;
+	padding: 50px 0 20px 0;
+	position: relative;
+}
+
+footer .navbar-nav a {
+	color: #FFFF;
+
+}
+
+footer .navbar-nav a:hover {
+	color: #0EE35E;
+
+}
+
+footer h4{
+	color: #9AEBFF;
+	font-size: 0.99em;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li {
+	list-style: none;
+	margin: 2 5px;
+	float: right;
+}
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+
+
+@media (min-width: 350px) and (max-width: 575.98px) { 
+	h1{
+		font-size: 3em;
+	}
+
+	.btn-custom{
+		margin-bottom: 20px;
+	}
+
+#nav-principal{
+	text-align:center;
+}
+
+	
+	
+ }
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	h1{
+		font-size: 3em;
+	}
+
+	.btn-custom{
+		margin: 10px;
+	}
+	
+
+
+	
+	
+ }
+
+
+
+/* X-Small devices (portrait phones, less than 768px) */
+@media (min-width: 768px) and (max-width: 991.98px){ 
+	h1{
+		font-size: 4em;
+	}
+
+	.btn-custom{
+		margin: 10px;
+	}
+
+	
+}
+
+
+
+/* X-Small devices (portrait phones, less than 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	h1{
+		font-size: 5em;
+	}
+
+	
+ }
+
+
+
+/* X-Small devices (portrait phones, less than 1200px) */
+@media (min-width: 1200px) and (max-width: 1398.98px) { 
+	h1{
+		font-size: 6em;
+	}
+
+
+ }
+
+
+
+/* X-Small devices (portrait phones, less than 1400px) */
+@media (min-width: 1400px)  { 
+	h1{
+		font-size: 6em;
+	}
+ }
